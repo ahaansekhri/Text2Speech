@@ -28,11 +28,11 @@ render(){
 
           
            <TouchableOpacity style={styles.button} onPress={()=>{
-             var speak = () => {
+           
               var thingToSay = this.state.text;
                 console.log(thingToSay);
                 Speech.speak(thingToSay);
-                 };
+                 
               
            }}>
             <Text style={styles.text}>
